@@ -2,17 +2,16 @@
 
 body {
   font-family: 'Raleway', sans-serif;
-  height: 100vh;
-  background: #333 url('https://image.ibb.co/hu4icU/heli_pic.jpg') no-repeat bottom center / cover;
   color: #262626;
+  margin: 0;
 }
 
 .container {
+  height: 96vh;
+  background: #333 url('https://image.ibb.co/hu4icU/heli_pic.jpg') no-repeat center center / cover;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  padding: 0 2rem;
-  margin-top: 20vh;
 }
 
 h1,
@@ -23,7 +22,7 @@ h2 {
 
 h1 {
   font-size: 3.2rem;
-  margin-top: 48vh;
+  margin-top: 72vh;
   margin-left: 4vw;
 }
 
