@@ -6,35 +6,39 @@ body {
   margin: 0;
 }
 
-.container {
-  height: 96vh;
+.hero {
+  height: 100vh;
   background: #333 url('https://image.ibb.co/hu4icU/heli_pic.jpg') no-repeat center center / cover;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
 
-h1,
-h2 {
+.hero h1,
+.hero h2 {
   font-weight: 350;
   margin: 0.4rem;
 }
 
-h1 {
-  font-size: 3.2rem;
-  margin-top: 72vh;
-  margin-left: 4vw;
+.hero h1 {
+  font-size: 3.5rem;
+  margin-top: 75vh;
+  margin-left: 6vw;
 }
 
-h2 {
+.hero h2 {
   font-size: 2rem;
   color: #333333;
-  margin-left: 4.3vw;
+  margin-left: 6.3vw;
 }
 
 /* Cursor */
 .txt-type>.txt {
   border-right: 0.2rem solid #777;
+}
+
+.testing {
+  margin: 30vh 47vw;
 }
 
 @media(min-width: 1200px) {
