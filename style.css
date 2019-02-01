@@ -8,7 +8,7 @@ body {
 
 .hero {
   height: 100vh;
-  background: #333 url('https://image.ibb.co/hu4icU/heli_pic.jpg') no-repeat center center / cover;
+  background: #333 url('img/heli.jpg') no-repeat center center / cover;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
