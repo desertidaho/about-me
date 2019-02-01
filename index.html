@@ -5,24 +5,62 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="style.css">
   <link rel="icon" type="image/png" href="img/transparent-sun.png">
   <title>Brett Wilcox</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <div class="hero">
-    <h1>Brett Wilcox-
-      <span class="txt-type" data-wait="3000" data-words='["Software Developer", "Helicopter Pilot", "Poet"]'></span>
-    </h1>
-    <h2>Welcome To My Website</h2>
-  </div>
-
   <div class="container-fluid">
-    <p class="testing">testing</p>
-  </div>
 
-  <script src="main.js"></script>
+    <div class="row">
+      <div class="col d-flex justify-content-end">
+        <nav class="navbar navbar-expand-lg navbar-light navbar-fixed-top my-3">
+          <a class="navbar-brand" href="#"><img src="img/computer.png" alt="computer" class="computer"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <h4 class="px-4 my-nav-links"><a class="nav-link" href="#">About <span class="sr-only">(current)</span></a></h4>
+              </li>
+              <li class="nav-item">
+                <h4 class="px-4 my-nav-links"><a class="nav-link" href="#">Projects</a></h4>
+              </li>
+              <li class="nav-item">
+                <h4 class="px-4 my-nav-links"><a class="nav-link" href="#">Experience</a></h4>
+              </li>
+              <li class="nav-item">
+                <h4 class="px-4 my-nav-links"><a class="nav-link" href="#">Contact</a></h4>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <div class=" row hero mb-5">
+      <div class="col">
+        <h1 class="col-11 offset-md-1 name">Brett Wilcox</h1>
+        <h2 class="col-11 offset-md-1 txt-type scroll" data-wait="3000" data-words='["Junior Software Developer", "Helicopter Pilot", "Poet"]'></h2>
+      </div>
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+      crossorigin="anonymous"></script>
+    <script src="main.js"></script>
 </body>
 
 </html>
