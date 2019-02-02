@@ -158,6 +158,38 @@ code {
   height: 28vh;
 }
 
+.wave {
+  margin-top: 40vh;
+  padding-top: 30vh;
+  position: relative;
+  background: linear-gradient(#40a3da 20%, #ffffff);
+  height: 500px;
+}
+
+.wave::before {
+  content: '';
+  position: absolute;
+  top: -400px;
+  left: 0;
+  width: 100vw;
+  height: 400px;
+  background: url(img/wave.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.my-portfolio {
+  margin-top: 300px !important;
+}
+
+.portfolio-title {
+  position: absolute;
+  top: -500px;
+  padding: 15px 30px;
+  border: 1px solid white;
+  border-radius: 8px;
+}
+
 .foot-title {
   padding: 15px 30px;
   border: 1px solid white;
