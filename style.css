@@ -6,27 +6,24 @@ body {
   margin: 0;
 }
 
-.computer {
-  max-height: 10vh;
-  max-width: 10vh;
+.asus {
+  background-image: url('img/asus.png');
+  height: 80vh;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
 }
 
-.hero {
-  height: 84vh;
-  background: #333 url('img/heli.jpg') no-repeat center center / cover;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-}
-
-.hero h1,
-.hero h2 {
+h1 {
   font-weight: 500;
+  font-size: 4rem;
+  margin-top: 20vh;
 }
 
-.hero h1 {
-  font-size: 3.5rem;
-  margin-top: 64vh;
+h2 {
+  font-size: 2.2rem;
+  font-weight: 500;
 }
 
 /* Cursor */
@@ -34,21 +31,17 @@ body {
   border-right: 0.2rem solid #777;
 }
 
-
-@media only screen and (max-width: 768px) {
-
-  .hero {
-    background-position-x: 73%;
-  }
-
-  .name {
-    font-size: 2.3rem !important;
-    font-weight: 700;
-    margin-top: 67vh !important;
-  }
-
-  .scroll {
-    font-size: 1.5rem !important;
-  }
-
+.space {
+  height: 2000px;
 }
+
+.foot {
+  background-color: black;
+}
+
+.footer-icons {
+  color: white;
+}
+
+
+@media only screen and (max-width: 768px) {}
