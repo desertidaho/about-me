@@ -48,6 +48,27 @@ h2 {
   width: 100vw;
 }
 
+.skills-bg {
+  padding-top: 100px;
+  padding-bottom: 80px;
+  background: linear-gradient(#e66465, #9198e5);
+}
+
+.skills {
+  height: 30vh;
+  width: auto;
+}
+
+.skills-2 {
+  height: 25vh;
+  width: auto;
+}
+
+#c-sharp {
+  height: 35vh;
+  margin-top: 3vh;
+}
+
 .space {
   height: 2000px;
 }
