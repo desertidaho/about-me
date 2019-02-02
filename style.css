@@ -48,6 +48,13 @@ h2 {
   width: 100vw;
 }
 
+.about-me,
+.skills-title,
+.my-portfolio {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
 .about-box {
   border-radius: 5px;
   border: 2px solid rgb(78, 77, 77);
@@ -63,8 +70,12 @@ h2 {
   width: 145px;
 }
 
-.skills-title {
-  font-size: 2rem;
+.my-carousel {
+  height: 69vh;
+  width: 100vw;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border: 2px solid rgb(78, 77, 77);
 }
 
 .skills-bg {
