@@ -2,8 +2,9 @@
 
 body {
   font-family: 'Raleway', sans-serif;
-  color: #262626;
+  color: #464A52;
   margin: 0;
+  overflow-x: hidden;
 }
 
 .asus {
@@ -24,6 +25,47 @@ body {
   margin-top: 22vh !important;
   z-index: -2;
   border-radius: 2%;
+  height: 800px;
+  width: 100vw;
+}
+
+.slant-top {
+  position: absolute;
+  background-color: rgb(163, 161, 161);
+  z-index: -3;
+}
+
+.slant-top::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  border-style: solid;
+  border-color: transparent;
+  border-width: 8vh 100vw;
+  border-bottom-color: rgb(194, 194, 192);
+  border-left-color: rgb(194, 194, 192);
+}
+
+.slant-row {
+  background-color: rgb(194, 194, 192);
+  padding-bottom: 15vh;
+}
+
+.slant-bottom {
+  position: relative;
+  background-color: rgb(194, 194, 192);
+}
+
+.slant-bottom::after {
+  content: '';
+  position: relative;
+  bottom: 0;
+  border-style: solid;
+  border-color: transparent;
+  border-width: 8vh 100vw;
+  border-bottom-color: white;
+  border-left-color: white;
+
 }
 
 h1 {
@@ -42,11 +84,6 @@ h2 {
   border-right: 0.2rem solid #777;
 }
 
-.code {
-  margin-top: 65vh;
-  height: 800px;
-  width: 100vw;
-}
 
 .about-me,
 .skills-title,
@@ -56,15 +93,15 @@ h2 {
 }
 
 .about-box {
-  border-radius: 5px;
-  border: 2px solid rgb(78, 77, 77);
+  border-radius: 8px;
+  border: 2px solid #969188;
   font-size: 1.2rem;
-  background-color: black;
+  background-color: #464A52;
 }
 
 .my-pic {
   border-radius: 50%;
-  border: 2px solid rgb(78, 77, 77);
+  border: 1px solid #969188;
   float: right;
   height: 160px;
   width: 145px;
@@ -75,7 +112,8 @@ h2 {
   width: 100vw;
   background-position: center center;
   background-repeat: no-repeat;
-  border: 2px solid rgb(78, 77, 77);
+  border: 2px solid #969188;
+  border-radius: 8px;
 }
 
 .skills-bg {
@@ -104,11 +142,11 @@ h2 {
 }
 
 .foot {
-  background-color: black;
+  background-color: #BED2D3;
 }
 
 .footer-icons {
-  color: white;
+  color: #464A52;
 }
 
 
