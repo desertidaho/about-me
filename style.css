@@ -7,6 +7,26 @@ body {
   overflow-x: hidden;
 }
 
+code {
+  color: #464A52;
+}
+
+.name {
+  font-weight: 500;
+  font-size: 4rem;
+  margin-top: 20vh;
+}
+
+.scroll {
+  font-size: 2.2rem;
+  font-weight: 500;
+}
+
+/* Cursor */
+.txt-type>.txt {
+  border-right: 0.2rem solid #777;
+}
+
 .asus {
   background-image: url('img/asus.png');
   height: 80vh;
@@ -41,7 +61,7 @@ body {
   bottom: 0;
   border-style: solid;
   border-color: transparent;
-  border-width: 8vh 100vw;
+  border-width: 12vh 100vw;
   border-bottom-color: rgb(194, 194, 192);
   border-left-color: rgb(194, 194, 192);
 }
@@ -68,28 +88,14 @@ body {
 
 }
 
-h1 {
-  font-weight: 500;
-  font-size: 4rem;
-  margin-top: 20vh;
+.about-title {
+  padding: 15px 30px;
+  border: 1px solid white;
+  border-radius: 8px;
 }
 
-h2 {
-  font-size: 2.2rem;
-  font-weight: 500;
-}
-
-/* Cursor */
-.txt-type>.txt {
-  border-right: 0.2rem solid #777;
-}
-
-
-.about-me,
-.skills-title,
-.my-portfolio {
-  font-size: 2rem;
-  font-weight: 600;
+.dots {
+  color: rgb(194, 194, 192);
 }
 
 .about-box {
@@ -116,29 +122,50 @@ h2 {
   border-radius: 8px;
 }
 
+.skills-title {
+  padding: 15px 30px;
+  border: 1px solid #464A52;
+  border-radius: 8px;
+}
+
 .skills-bg {
   padding-top: 100px;
   padding-bottom: 80px;
-  background: linear-gradient(#9198e5, #e66465);
 }
 
 .skills {
-  height: 30vh;
-  width: auto;
-}
-
-.skills-2 {
   height: 25vh;
   width: auto;
 }
 
+.skills-2 {
+  height: 20vh;
+  width: auto;
+}
+
 #c-sharp {
-  height: 27vh;
+  height: 22vh;
   margin-top: 3vh;
 }
 
-.space {
-  height: 2000px;
+#bootstrap,
+#vue {
+  height: 19vh;
+}
+
+#mongo,
+#node {
+  height: 28vh;
+}
+
+.foot-title {
+  padding: 15px 30px;
+  border: 1px solid white;
+  border-radius: 8px;
+}
+
+.dots-foot {
+  color: #BED2D3;
 }
 
 .foot {

@@ -49,19 +49,23 @@
     <header class="row">
       <div class="col asus my-4"></div>
       <h1 class="col-6 offset-4 name">Brett Wilcox</h1>
-      <h2 class="col-6 offset-4 txt-type scroll" data-wait="3000" data-words='["Junior Software Developer", "Helicopter Pilot", "Poet"]'></h2>
+      <h2 class="col-6 offset-4 txt-type scroll" data-wait="3000" data-words='["Junior Software Developer",
+        "Helicopter Pilot" , "Poet" ]'></h2>
     </header>
 
-    <!-- code background -->
+    <!-- cascading code img background -->
     <div class="row">
       <div class="code col-10 offset-1"></div>
     </div>
 
     <a name="about"></a>
     <div class="row slant-top"></div>
-    <section class="row slant-row">
-      <div class="col-12 text-center mt-5">
-        <h2>About Me</h2>
+    <section class="row slant-row pt-3">
+      <div class="col-12 d-flex justify-content-center mt-5">
+        <h3 class="about-title shadow mt-5"><code>function <b>aboutMe</b>(description, pictures) {<br />
+            <span class="dots">......</span>console.log(description, pictures);<br />
+            }</code>
+        </h3>
       </div>
       <div class="col-4 offset-1 about text-center">
         <!-- about, description (code, fly, book), picture, github, resume, codesignal, fcc -->
@@ -169,10 +173,11 @@
     <div class="row slant-bottom"></div>
 
     <a name="skills"></a>
-    <section class="row mt-5 skills-bg">
-      <h2 class="col-8 offset-2 text-center my-4 skills-title text-black"><b>I'm pretty new at this, but here are some
-          of my awesome skills.</b>
-      </h2>
+    <section class="row skills-bg">
+      <div class="col-12 d-flex justify-content-center">
+        <h3 class="text-center my-4 skills-title shadow"><code>brett.<b>skills</b>.push(...languages)</code>
+        </h3>
+      </div>
       <div class="col-10 offset-1 d-flex justify-content-around mt-5">
         <img src="img/html.png" alt="" class="skills">
         <img src="img/css.png" alt="" class="skills">
@@ -180,11 +185,11 @@
         <img src="img/c-sharp.png" alt="" class="skills" id="c-sharp">
       </div>
       <div class="col-12 d-flex justify-content-around my-5">
-        <img src="img/bootstrap.png" alt="" class="skills-2">
-        <img src="img/vue.png" alt="" class="skills-2">
-        <img src="img/git-bash.png" alt="" class="skills-2">
-        <img src="img/mongo.png" alt="" class="skills-2">
-        <img src="img/node-js.png" alt="" class="skills-2">
+        <img src="img/bootstrap.png" alt="" class="skills-2 mt-5" id="bootstrap">
+        <img src="img/vue.png" alt="" class="skills-2 mt-5" id="vue">
+        <img src="img/git-bash.png" alt="" class="skills-2 mt-5">
+        <img src="img/mongo.png" alt="" class="skills-2 mt-3" id="mongo">
+        <img src="img/node-js.png" alt="" class="skills-2 mt-2" id="node">
       </div>
     </section>
 
@@ -198,7 +203,11 @@
 
     <footer>
       <div class="row foot py-4 mt-4">
-        <h2 class="col-12 text-center my-5">Ya, you should definitely contact me.</h2>
+        <div class="col-12 d-flex justify-content-center">
+          <h3 class="foot-title shadow my-5"><code>if (need to speak) {<br />
+              <span class="dots-foot">..</span> let you = '<b>contact me</b>';<br />
+              }</code></h3>
+        </div>
         <div class="col-8 offset-2 d-flex align-items-center justify-content-around py-5">
           <a href="https://www.facebook.com/wilcox.brett" target="_blank"><i class="fab fa-facebook fa-4x footer-icons"
               data-toggle="tooltip" title="Facebook"></i></a>
