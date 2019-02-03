@@ -184,7 +184,7 @@ code {
 
 .portfolio-title {
   position: absolute;
-  top: -500px;
+  top: -480px;
   padding: 15px 30px;
   border: 1px solid white;
   border-radius: 8px;
@@ -192,7 +192,7 @@ code {
 
 .my-cards {
   position: relative;
-  top: -550px;
+  top: -330px;
 }
 
 .card {
