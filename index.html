@@ -13,6 +13,7 @@
     crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
 </head>
+<a name="top"></a>
 
 <body>
   <div class="container-fluid">
@@ -63,7 +64,7 @@
     <section class="row slant-row pt-3">
       <div class="col-12 d-flex justify-content-center mt-5">
         <h3 class="about-title shadow mt-5"><code>function <b>aboutMe</b>(description, pictures) {<br />
-            <span class="dots">......</span>console.log(description, pictures);<br />
+            <span class="dots">.....</span>console.log(description, pictures);<br />
             }</code>
         </h3>
       </div>
@@ -175,7 +176,7 @@
     <a name="skills"></a>
     <section class="row skills-bg">
       <div class="col-12 d-flex justify-content-center">
-        <h3 class="text-center my-4 skills-title shadow"><code>brett.<b>skills</b>.push(...languages)</code>
+        <h3 class="text-center mt-2 mb-4 skills-title shadow"><code>brett.<b>skills</b>.push(...languages)</code>
         </h3>
       </div>
       <div class="col-10 offset-1 d-flex justify-content-around mt-5">
@@ -223,8 +224,8 @@
               <div class="card-body shadow">
                 <h4 class="card-title">Mathematics Notebooks</h4>
                 <p class="card-text">
-                  I built this website for my daughter to showcase her college math notebooks, homework,
-                  quizzes, and tests that she spent years working on while earning her B.S. in applied mathematics at
+                  I built this website for my daughter to showcase her college math notebooks that she spent years
+                  working on while earning her B.S. in applied mathematics at
                   Boise State University.
                   <div class="d-flex justify-content-center">
                     <a href="https://mathematicsnotebooks.com/" class="btn btn-secondary shadow" target="_blank">mathematicsnotebooks.com</a>
@@ -286,8 +287,7 @@
                 <h4 class="card-title">Work in Progress</h4>
                 <p class="card-text">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores cum dolore accusantium itaque iure.
-                  Nisi, nihil hic. Recusandae possimus eaque blanditiis ipsam commodi maxime quisquam reprehenderit sit
-                  iste. Aspernatur, veniam?
+                  Nisi, nihil hic. Recusandae possimus eaque blanditiis ipsam commodi
                 </p>
                 <div class="d-flex justify-content-center">
                   <a href="https://brettwilcox.info/crown-maple/" class="btn btn-secondary shadow" target="_blank">coming
@@ -305,7 +305,7 @@
       <div class="row foot py-4 mt-5">
         <div class="col-12 d-flex justify-content-center">
           <h3 class="foot-title shadow my-5"><code id="title-foot">if (need to speak) {<br />
-              <span class="dots-foot">..</span> let you = '<b>contact me</b>';<br />
+              <span class="dots-foot">..</span> let you = "<b>contact me</b>";<br />
               }</code></h3>
         </div>
         <div class="col-8 offset-2 d-flex align-items-center justify-content-around py-5">
@@ -319,10 +319,10 @@
               title="Call"></i></a>
         </div>
         <!--Up arrow-->
-        <div class="col-sm-12 d-flex justify-content-end mb-4">
-          <a href="#top" id="arrow" class="fa mr-5"></a>
+        <div class="col-12 d-flex justify-content-center mb-4">
+          <a href="#top" id="arrow" class="fa fa-2x text-white mt-5"></a>
         </div>
-        <div class="col d-flex justify-content-center pt-5 pb-3">
+        <div class="col-12 d-flex justify-content-center pt-5 pb-3">
           <p class="copyright text-white">&copy 2019 BRETT WILCOX</p>
         </div>
       </div>
@@ -330,7 +330,6 @@
     <a name="contact"></a>
 
   </div>
-
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
@@ -340,13 +339,27 @@
     crossorigin="anonymous"></script>
   <script src="main.js"></script>
 
+  <!--Up arrow scroll bottom of page-->
+  <script>
+    function upArrow() {
+      let chain = document.getElementById('arrow');
+      chain.innerHTML = "&#xf102;";
+      setTimeout(function () {
+        chain.innerHTML = "&#xf106;";
+      }, 1000);
+    }
+    upArrow();
+    // Animate Every 2 Seconds
+    setInterval(upArrow, 2000);
+  </script>
+
   <!--Smooth scrolling for arrow to top of page-->
   <script>
     $(function () {
       $('a[href*="#"]:not([href="#"])').click(function () {
         if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname ==
           this.hostname) {
-          let target = $(this.hash);
+          var target = $(this.hash);
           target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
           if (target.length) {
             $('html, body').animate({

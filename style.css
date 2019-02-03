@@ -226,6 +226,10 @@ code {
   color: white;
 }
 
+#arrow:hover {
+  text-decoration: none;
+}
+
 
 @media only screen and (max-width: 768px) {
 
