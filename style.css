@@ -55,7 +55,7 @@ code {
   z-index: -3;
   transform: rotate(4deg);
   height: 300px;
-  width: 110vw;
+  width: 109%;
   margin-top: -130px;
   margin-left: -50px;
 }
@@ -72,7 +72,7 @@ code {
   transform: rotate(4deg);
   margin-top: -100px;
   height: 200px;
-  width: 102vw;
+  width: 102%;
 }
 
 .about-title {
@@ -153,24 +153,24 @@ code {
   height: 28vh;
 }
 
+.wave::before {
+  content: '';
+  position: absolute;
+  top: -400px;
+  left: 0;
+  width: 100%;
+  height: 400px;
+  background: url(img/wave.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .wave {
   margin-top: 40vh;
   padding-top: 30vh;
   position: relative;
   background: linear-gradient(#40a3da 20%, #ffffff);
   height: 1400px;
-}
-
-.wave::before {
-  content: '';
-  position: absolute;
-  top: -400px;
-  left: 0;
-  width: 100vw;
-  height: 400px;
-  background: url(img/wave.png);
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .my-portfolio {
@@ -232,13 +232,17 @@ code {
 
 @media only screen and (max-width: 768px) {
 
+  div #no-x {
+    overflow-x: hidden !important;
+  }
+
   .navbar-nav {
     display: flex !important;
     flex-direction: row;
   }
 
   .nav-link {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 
   .name {
@@ -270,7 +274,7 @@ code {
 
   .my-pic {
     height: 105px;
-    width: 100px;
+    width: 95px;
   }
 
   #fcc {
@@ -287,7 +291,7 @@ code {
   }
 
   .skills {
-    margin: -30px !important;
+    margin: -25px !important;
     height: 12vh;
     width: auto;
   }
@@ -301,7 +305,7 @@ code {
 
   #c-sharp {
     height: 9vh;
-    margin-top: -15px !important;
+    margin-top: -19px !important;
   }
 
   #bootstrap {
@@ -319,18 +323,18 @@ code {
   }
 
   .portfolio-title {
-    font-size: 1rem;
+    font-size: 0.9rem;
     padding: 10px;
   }
 
   .my-cards {
     position: relative;
-    top: -280px;
+    top: -310px;
     margin-top: -45px;
   }
 
   .foot {
-    margin-top: 1730px !important;
+    margin-top: 1700px !important;
   }
 
   .foot-title {
