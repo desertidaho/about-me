@@ -7,10 +7,6 @@ body {
   overflow-x: hidden;
 }
 
-.my-nav-links {
-  color: black !important;
-}
-
 code {
   color: #464A52;
 }
@@ -22,7 +18,7 @@ code {
 }
 
 .scroll {
-  font-size: 2.2rem;
+  font-size: 2rem;
   font-weight: 500;
 }
 
@@ -89,13 +85,16 @@ code {
   border-width: 8vh 100vw;
   border-bottom-color: white;
   border-left-color: white;
-
 }
 
 .about-title {
   padding: 15px 30px;
   border: 1px solid white;
   border-radius: 8px;
+}
+
+.about {
+  font-size: 1.1rem;
 }
 
 .dots {
@@ -228,6 +227,10 @@ code {
 
 .footer-icons {
   color: white;
+}
+
+.fa-envelope:hover {
+  cursor: pointer;
 }
 
 #arrow:hover {
