@@ -201,12 +201,7 @@ code {
 }
 
 .card-body {
-  background-color: #c2c2c0;
   border-top: 2px solid #464A52;
-}
-
-.card-btn {
-  align-items: center;
 }
 
 .foot-title {
@@ -215,16 +210,20 @@ code {
   border-radius: 8px;
 }
 
+#title-foot {
+  color: white;
+}
+
 .dots-foot {
-  color: #BED2D3;
+  color: #464A52;
 }
 
 .foot {
-  background-color: #BED2D3;
+  background-color: #464A52;
 }
 
 .footer-icons {
-  color: #464A52;
+  color: white;
 }
 
 
