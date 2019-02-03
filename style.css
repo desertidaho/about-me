@@ -163,7 +163,7 @@ code {
   padding-top: 30vh;
   position: relative;
   background: linear-gradient(#40a3da 20%, #ffffff);
-  height: 500px;
+  height: 1400px;
 }
 
 .wave::before {
@@ -188,6 +188,25 @@ code {
   padding: 15px 30px;
   border: 1px solid white;
   border-radius: 8px;
+}
+
+.my-cards {
+  position: relative;
+  top: -550px;
+}
+
+.card {
+  border: 2px solid #464A52;
+  border-radius: 8px;
+}
+
+.card-body {
+  background-color: #c2c2c0;
+  border-top: 2px solid #464A52;
+}
+
+.card-btn {
+  align-items: center;
 }
 
 .foot-title {
