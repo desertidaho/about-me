@@ -7,6 +7,10 @@ body {
   overflow-x: hidden;
 }
 
+.my-nav-links {
+  color: black !important;
+}
+
 code {
   color: #464A52;
 }
