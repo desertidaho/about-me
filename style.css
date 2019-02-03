@@ -4,7 +4,7 @@ body {
   font-family: 'Raleway', sans-serif;
   color: #464A52;
   margin: 0;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 
 code {
@@ -51,19 +51,13 @@ code {
 
 .slant-top {
   position: absolute;
-  background-color: rgb(163, 161, 161);
+  background-color: rgb(194, 194, 192);
   z-index: -3;
-}
-
-.slant-top::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  border-style: solid;
-  border-color: transparent;
-  border-width: 12vh 100vw;
-  border-bottom-color: rgb(194, 194, 192);
-  border-left-color: rgb(194, 194, 192);
+  transform: rotate(4deg);
+  height: 300px;
+  width: 110vw;
+  margin-top: -130px;
+  margin-left: -50px;
 }
 
 .slant-row {
@@ -72,19 +66,13 @@ code {
 }
 
 .slant-bottom {
-  position: relative;
+  position: absolute;
   background-color: rgb(194, 194, 192);
-}
-
-.slant-bottom::after {
-  content: '';
-  position: relative;
-  bottom: 0;
-  border-style: solid;
-  border-color: transparent;
-  border-width: 8vh 100vw;
-  border-bottom-color: white;
-  border-left-color: white;
+  z-index: -3;
+  transform: rotate(4deg);
+  margin-top: -100px;
+  height: 200px;
+  width: 102vw;
 }
 
 .about-title {
@@ -126,6 +114,7 @@ code {
 }
 
 .skills-title {
+  margin-top: 20vh !important;
   padding: 15px 30px;
   border: 1px solid #464A52;
   border-radius: 8px;
@@ -243,6 +232,15 @@ code {
 
 @media only screen and (max-width: 768px) {
 
+  .navbar-nav {
+    display: flex !important;
+    flex-direction: row;
+  }
+
+  .nav-link {
+    font-size: 1.2rem;
+  }
+
   .name {
     margin-top: 14vh !important;
     font-size: 1.5rem;
@@ -253,12 +251,28 @@ code {
   }
 
   .asus {
-    margin-top: -15vh !important;
+    margin-top: 7vh !important;
+    height: 38vh;
   }
 
   .code {
     margin-top: 15vh !important;
   }
+
+  .about-title {
+    font-size: 0.9rem;
+    padding: 10px;
+  }
+
+  .about {
+    font-size: 1rem;
+  }
+
+  .my-pic {
+    height: 105px;
+    width: 100px;
+  }
+
 
   #fcc {
     margin-top: 2vh;
@@ -266,6 +280,10 @@ code {
 
   .my-carousel {
     height: 33vh;
+  }
+
+  .skills-title {
+    font-size: 1rem;
   }
 
   .skills {
@@ -298,14 +316,24 @@ code {
     margin-top: -2vh !important;
   }
 
+  .portfolio-title {
+    font-size: 1rem;
+    padding: 10px;
+  }
+
   .my-cards {
     position: relative;
-    top: -200px;
+    top: -280px;
     margin-top: -45px;
   }
 
   .foot {
-    margin-top: 1800px !important;
+    margin-top: 1730px !important;
+  }
+
+  .foot-title {
+    font-size: 1.2rem;
+    padding: 10px;
   }
 
   .footer-icons {
