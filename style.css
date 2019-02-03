@@ -148,10 +148,13 @@ code {
 
 #c-sharp {
   height: 22vh;
-  margin-top: 3vh;
+  margin-top: 2vh;
 }
 
-#bootstrap,
+#bootstrap {
+  height: 22vh;
+}
+
 #vue {
   height: 19vh;
 }
