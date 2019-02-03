@@ -18,7 +18,7 @@ code {
 }
 
 .scroll {
-  font-size: 2rem;
+  font-size: 2.2rem;
   font-weight: 500;
 }
 
@@ -243,17 +243,75 @@ code {
 
 @media only screen and (max-width: 768px) {
 
-  .name,
-  .scroll {
+  .name {
+    margin-top: 14vh !important;
     font-size: 1.5rem;
   }
 
+  .scroll {
+    font-size: 1.1rem;
+  }
+
   .asus {
-    margin-top: -10vh !important;
+    margin-top: -15vh !important;
+  }
+
+  .code {
+    margin-top: 15vh !important;
+  }
+
+  #fcc {
+    margin-top: 2vh;
+  }
+
+  .my-carousel {
+    height: 33vh;
+  }
+
+  .skills {
+    height: 12vh;
+    width: auto;
+  }
+
+  .skills-2 {
+    height: 8vh;
+    width: auto;
+    margin-top: 0vh !important;
+  }
+
+  #c-sharp {
+    height: 9vh;
+    margin-top: 2vh;
+  }
+
+  #bootstrap {
+    height: 9vh;
+  }
+
+  #vue {
+    height: 7vh;
+  }
+
+  #mongo,
+  #node {
+    height: 13vh;
+    margin-top: -2vh !important;
+  }
+
+  .my-cards {
+    position: relative;
+    top: -200px;
+    margin-top: -45px;
+  }
+
+  .foot {
+    margin-top: 1800px !important;
   }
 
   .footer-icons {
-    font-size: 2rem;
+    font-size: 2.5rem;
+    margin-left: 20px;
+    margin-right: 20px;
   }
 
 }

@@ -49,8 +49,8 @@
 
     <header class="row">
       <div class="col asus my-4"></div>
-      <h1 class="col-6 offset-4 name">Brett Wilcox</h1>
-      <h2 class="col-6 offset-4 txt-type scroll" data-wait="3000" data-words='["Junior Software Developer",
+      <h1 class="col-8 offset-2 col-md-6 offset-md-4 name">Brett Wilcox</h1>
+      <h2 class="col-8 offset-2 col-md-6 offset-md-4 txt-type scroll" data-wait="3000" data-words='["Software Developer",
         "Helicopter Pilot" , "Poet" ]'></h2>
     </header>
 
@@ -68,7 +68,7 @@
             }</code>
         </h3>
       </div>
-      <div class="col-4 offset-1 about text-center">
+      <div class="col-12 col-md-4 offset-md-1 about text-center">
         <!-- about, description (code, fly, book), picture, github, resume, codesignal, fcc -->
         <div class="d-flex mt-5 mb-3 text-white shadow-lg text-left about-box">
           <p class="about px-4 py-4"><img class="my-pic ml-3 mb-2 shadow-lg" src="img/my-pic.jpg" alt="Brett Wilcox picture">Hi,
@@ -85,11 +85,12 @@
         <a href="https://github.com/desertidaho" target="_blank"><button class="btn btn-sm btn-outline-dark shadow">GitHub</button></a>
         <a href="" target="_blank"><button class="btn btn-sm btn-outline-dark shadow mx-1">Resume</button></a>
         <a href="https://app.codesignal.com/profile/brett_w16" target="_blank"><button class="btn btn-sm btn-outline-dark shadow mx-1">CodeSignal</button></a>
-        <a href="https://www.freecodecamp.org/heli" target="_blank"><button class="btn btn-sm btn-outline-dark shadow">freeCodeCamp</button></a>
+        <a href="https://www.freecodecamp.org/heli" target="_blank"><button class="btn btn-sm btn-outline-dark shadow"
+            id="fcc">freeCodeCamp</button></a>
       </div>
 
       <!-- carousel -->
-      <div class="col-6 my-5">
+      <div class="col-12 col-md-6 my-5">
         <div id="about-carousel" class="carousel carousel-fade slide shadow" data-ride="carousel">
           <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -196,7 +197,7 @@
 
     <a name="portfolio"></a>
     <section class="row wave">
-      <div class="col-12 d-flex justify-content-center my-portfolio">
+      <div class="col-10 offset-1 col-md-12 offset-md-0 d-flex justify-content-center my-portfolio">
         <h2 class="portfolio-title shadow"><code>document.getElementById("<b>myProjects</b>").addEventListener("click",
             display);</code></h2>
       </div>
@@ -260,7 +261,7 @@
           <div class="card-deck">
 
             <div class="card">
-              <img class="card-img-top shadow" src="https://source.unsplash.com/random/1895x1082" alt="Card image cap">
+              <img class="card-img-top shadow" src="img/whale.jpg" alt="Card image cap">
               <div class="card-body shadow">
                 <h4 class="card-title">Work in Progress</h4>
                 <p class="card-text">
@@ -276,7 +277,7 @@
               </div>
             </div>
             <div class="card">
-              <img class="card-img-top shadow" src="https://source.unsplash.com/random/1895x1081" alt="Card image cap">
+              <img class="card-img-top shadow" src="img/video-game.jpg" alt="Card image cap">
               <div class="card-body shadow">
                 <h4 class="card-title">Work in Progress</h4>
                 <p class="card-text">
@@ -290,7 +291,7 @@
               </div>
             </div>
             <div class="card">
-              <img class="card-img-top shadow" src="https://source.unsplash.com/random/1895x1080" alt="Card image cap">
+              <img class="card-img-top shadow" src="img/train.jpg" alt="Card image cap">
               <div class="card-body shadow">
                 <h4 class="card-title">Work in Progress</h4>
                 <p class="card-text">
@@ -337,17 +338,17 @@
                   <form action="https://formspree.io/wilcox.brett@gmail.com" method="POST">
                     <div class="form-group row">
                       <div class="col-sm-10">
-                        <input type="email" required class="form-control" id="inputEmail3" name="email" placeholder="Your email address (REQUIRED)">
+                        <input type="email" required class="form-control" id="inputEmail3" name="email" placeholder="Your email address... REQUIRED">
                       </div>
                     </div>
                     <div class="form-group row">
                       <div class="col-sm-10">
-                        <input type="text" class="form-control" id="inputEmail3" name="subject" placeholder="Subject">
+                        <input type="text" class="form-control" id="inputEmail3" name="subject" placeholder="Subject...">
                       </div>
                     </div>
                     <div class="form-group row">
                       <div class="col-sm-12">
-                        <textarea type="text" rows="10" required class="form-control" name="message" placeholder="Message...(REQUIRED)"></textarea>
+                        <textarea type="text" rows="10" required class="form-control" name="message" placeholder="Message... REQUIRED"></textarea>
                       </div>
                     </div>
                     <div class="modal-footer">
