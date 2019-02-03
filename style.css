@@ -273,13 +273,12 @@ code {
     width: 100px;
   }
 
-
   #fcc {
     margin-top: 2vh;
   }
 
   .my-carousel {
-    height: 33vh;
+    height: 36vh;
   }
 
   .skills-title {
@@ -287,6 +286,7 @@ code {
   }
 
   .skills {
+    margin: -30px !important;
     height: 12vh;
     width: auto;
   }
@@ -299,7 +299,7 @@ code {
 
   #c-sharp {
     height: 9vh;
-    margin-top: 2vh;
+    margin-top: -15px !important;
   }
 
   #bootstrap {
