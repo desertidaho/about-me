@@ -191,12 +191,13 @@ code {
 }
 
 .card {
-  border: 2px solid #464A52;
+  border: 3px solid #464A52;
   border-radius: 8px;
 }
 
 .card-body {
-  border-top: 2px solid #464A52;
+  border-top: 3px solid #464A52;
+  background-color: rgb(194, 194, 192);
 }
 
 .foot-title {
@@ -232,12 +233,8 @@ code {
 
 @media only screen and (max-width: 768px) {
 
-  div #no-x {
-    overflow-x: hidden !important;
-  }
-
   .navbar-nav {
-    display: flex !important;
+    display: flex;
     flex-direction: row;
   }
 

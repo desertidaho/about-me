@@ -1,4 +1,3 @@
-// ES6 Class
 class TypeWriter {
   constructor(txtElement, words, wait = 4000) {
     this.txtElement = txtElement;
