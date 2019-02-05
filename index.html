@@ -62,7 +62,6 @@
         <a name="about"></a>
       </div>
       <div class="col-12 col-md-4 offset-md-1 about text-center">
-        <!-- about, description (code, fly, book), picture, github, resume, codesignal, fcc -->
         <div class="d-flex mt-5 mb-3 text-white shadow-lg text-left about-box">
           <p class="about px-4 py-4"><img class="my-pic ml-3 mb-2 shadow-lg" src="img/my-pic.jpg" alt="Brett Wilcox picture">Hi,
             I'm Brett
@@ -79,8 +78,7 @@
           </p>
         </div>
         <a href="https://github.com/desertidaho" target="_blank"><button class="btn btn-sm btn-outline-dark shadow">GitHub</button></a>
-        <a href="https://drive.google.com/file/d/1QfEJjx0lnpziAxLnxsP955H3pwb9RUt3/view?usp=sharing" target="_blank"><button
-            class="btn btn-sm btn-outline-dark shadow mx-1">Resume</button></a>
+        <a href="resources/wilcox-resume.pdf" target="_blank"><button class="btn btn-sm btn-outline-dark shadow mx-1">Resume</button></a>
         <a href="https://app.codesignal.com/profile/brett_w16" target="_blank"><button class="btn btn-sm btn-outline-dark shadow mx-1">CodeSignal</button></a>
         <a href="https://www.freecodecamp.org/heli" target="_blank"><button class="btn btn-sm btn-outline-dark shadow"
             id="fcc">freeCodeCamp</button></a>
@@ -402,7 +400,7 @@
       $('a[href*="#"]:not([href="#"])').click(function () {
         if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname ==
           this.hostname) {
-          var target = $(this.hash);
+          let target = $(this.hash);
           target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
           if (target.length) {
             $('html, body').animate({
