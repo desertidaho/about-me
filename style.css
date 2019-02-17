@@ -200,6 +200,10 @@ code {
   background-color: rgb(194, 194, 192);
 }
 
+.code-btn {
+  width: 60px;
+}
+
 .foot-title {
   padding: 15px 30px;
   border: 1px solid white;
