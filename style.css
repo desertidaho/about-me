@@ -195,9 +195,16 @@ code {
   border-radius: 8px;
 }
 
+.card-img-top {
+  border-top-left-radius: 2%;
+  border-top-right-radius: 2%;
+}
+
 .card-body {
   border-top: 3px solid #464A52;
   background-color: rgb(194, 194, 192);
+  border-bottom-left-radius: 2%;
+  border-bottom-right-radius: 2%;
 }
 
 .code-btn {
@@ -334,8 +341,8 @@ code {
     margin-top: -45px;
   }
 
-  .foot {
-    margin-top: 1700px !important;
+  footer {
+    margin-top: 155rem !important;
   }
 
   .foot-title {
