@@ -97,20 +97,22 @@ code {
 }
 
 .my-pic {
-  border-radius: 50%;
+  border-radius: 5%;
   border: 1px solid #969188;
   float: right;
   height: 160px;
   width: 145px;
+  object-fit: cover;
 }
 
 .my-carousel {
-  height: 69vh;
+  height: 53vh;
   width: 100vw;
   background-position: center center;
   background-repeat: no-repeat;
   border: 2px solid #969188;
   border-radius: 8px;
+  object-fit: fill;
 }
 
 .skills-title {
@@ -126,31 +128,35 @@ code {
 }
 
 .skills {
-  height: 25vh;
+  height: 23vh;
   width: auto;
 }
 
 .skills-2 {
-  height: 20vh;
+  height: 18vh;
   width: auto;
 }
 
 #c-sharp {
-  height: 22vh;
+  height: 20vh;
   margin-top: 2vh;
 }
 
 #bootstrap {
-  height: 22vh;
+  height: 20vh;
 }
 
 #vue {
-  height: 19vh;
+  height: 17vh;
 }
 
 #mongo,
 #node {
-  height: 28vh;
+  height: 26vh;
+}
+
+#sql {
+  height: 21vh;
 }
 
 .wave::before {
@@ -299,35 +305,51 @@ code {
   }
 
   .skills {
-    margin: -25px !important;
-    height: 12vh;
+    margin: 1rem 0rem !important;
+    height: 10vh;
     width: auto;
   }
 
   .skills-2 {
-    height: 8vh;
+    height: 6vh;
     width: auto;
-    margin-top: 0vh !important;
+    margin: 1rem 0rem !important;
     margin-bottom: 10vh;
   }
 
   #c-sharp {
-    height: 9vh;
-    margin-top: -19px !important;
+    height: 8vh;
+    margin-top: 4vh !important;
   }
 
   #bootstrap {
-    height: 9vh;
+    height: 7vh;
+    margin-right: 0.4rem !important;
+    /* margin-top: 0.4rem !important; */
   }
 
   #vue {
+    margin-top: 4.4vh !important;
     height: 7vh;
   }
 
   #mongo,
   #node {
-    height: 13vh;
-    margin-top: -2vh !important;
+    height: 11vh;
+    margin-top: 0vh !important;
+  }
+
+  #mongo {
+    margin-top: 0.4rem !important;
+  }
+
+  #git-bash {
+    height: 6.7vh;
+    margin-top: 1.2rem !important;
+  }
+
+  #sql {
+    height: 8vh;
   }
 
   .portfolio-title {
