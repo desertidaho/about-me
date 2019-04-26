@@ -247,6 +247,10 @@ code {
   text-decoration: none;
 }
 
+  footer {
+    margin-top: 35rem !important;
+  }
+
 
 @media only screen and (max-width: 768px) {
 
@@ -364,7 +368,7 @@ code {
   }
 
   footer {
-    margin-top: 185rem !important;
+    margin-top: 315rem !important;
   }
 
   .foot-title {
