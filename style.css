@@ -206,6 +206,10 @@ code {
   border-top-right-radius: 2%;
 }
 
+#crypto-news-img {
+  min-height: 10rem !important;
+}
+
 .card-body {
   border-top: 3px solid #464A52;
   background-color: rgb(194, 194, 192);
@@ -368,7 +372,7 @@ code {
   }
 
   footer {
-    margin-top: 277rem !important;
+    margin-top: 305rem !important;
   }
 
   .foot-title {

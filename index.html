@@ -98,22 +98,22 @@
       <div class="col-12 col-md-5 my-5">
         <div id="about-carousel" class="carousel carousel-fade slide shadow" data-ride="carousel">
           <ol class="carousel-indicators">
-            <li data-target="" data-slide-to="0" class="active"></li>
-            <li data-target="" data-slide-to="1"></li>
-            <li data-target="" data-slide-to="2"></li>
-            <li data-target="" data-slide-to="3"></li>
-            <li data-target="" data-slide-to="4"></li>
-            <li data-target="" data-slide-to="5"></li>
-            <li data-target="" data-slide-to="6"></li>
-            <li data-target="" data-slide-to="7"></li>
-            <li data-target="" data-slide-to="8"></li>
-            <li data-target="" data-slide-to="9"></li>
-            <li data-target="" data-slide-to="10"></li>
-            <li data-target="" data-slide-to="11"></li>
-            <li data-target="" data-slide-to="12"></li>
-            <li data-target="" data-slide-to="13"></li>
-            <li data-target="" data-slide-to="14"></li>
-            <li data-target="" data-slide-to="15"></li>
+            <li data-target="#about-carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#about-carousel" data-slide-to="1"></li>
+            <li data-target="#about-carousel" data-slide-to="2"></li>
+            <li data-target="#about-carousel" data-slide-to="3"></li>
+            <li data-target="#about-carousel" data-slide-to="4"></li>
+            <li data-target="#about-carousel" data-slide-to="5"></li>
+            <li data-target="#about-carousel" data-slide-to="6"></li>
+            <li data-target="#about-carousel" data-slide-to="7"></li>
+            <li data-target="#about-carousel" data-slide-to="8"></li>
+            <li data-target="#about-carousel" data-slide-to="9"></li>
+            <li data-target="#about-carousel" data-slide-to="10"></li>
+            <li data-target="#about-carousel" data-slide-to="11"></li>
+            <li data-target="#about-carousel" data-slide-to="12"></li>
+            <li data-target="#about-carousel" data-slide-to="13"></li>
+            <li data-target="#about-carousel" data-slide-to="14"></li>
+            <li data-target="#about-carousel" data-slide-to="15"></li>
           </ol>
           <div class="carousel-inner" role="listbox">
             <div class="carousel-item active">
@@ -165,14 +165,14 @@
               <img class="img-thumbnail my-carousel" src="img/s-3b-landing.jpg" alt="" data-holder-rendered="true">
             </div>
           </div>
-          <a class="carousel-control-prev" href="#about-carousel" role="button" data-slide="prev">
+          <!-- <a class="carousel-control-prev" href="#about-carousel" data-target="#about-carousel" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
           </a>
-          <a class="carousel-control-next" href="#about-carousel" role="button" data-slide="next">
+          <a class="carousel-control-next" href="#about-carousel" data-target="#about-carousel" role="button" data-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
-          </a>
+          </a> -->
         </div>
 
       </div>
@@ -473,27 +473,25 @@
               </div>
             </div>
 
-            <!-- <div class="card">
-              <img class="card-img-top shadow" src="img/tropical.png" alt="Card image cap">
+            <div class="card">
+              <img class="card-img-top shadow" id="crypto-news-img" src="img/crypto-news.PNG" alt="Card image cap">
               <div class="card-body shadow">
-                <h5 class="card-title">Tropical Tuesday</h5>
+                <h5 class="card-title">Crypto News</h5>
                 <p class="card-text">
-                  This is a text-based console application game that I built using C#. It's pretty simple, but also fun,
-                  and you have to solve an algorithm challenge at the end before you can win the game.
+                  I built this website so that I can read news articles from the cryptocurrency industry. The news updates every 3 minutes.  
                 </p>
                 <div class="d-flex justify-content-center">
-                  <a href="https://brettwilcox.info/SlapGame/" class="btn btn-sm btn-secondary shadow"
-                    target="_blank">Karate
-                    Panda</a>
+                  <a href="https://brettwilcox.info/Crypto/" class="btn btn-sm btn-secondary shadow"
+                    target="_blank">Crypto News</a>
                 </div>
                 <div class="row">
                   <div class="col mt-3 d-flex justify-content-center ">
-                    <a href="https://github.com/desertidaho/castle-grimtol" class="btn btn-sm btn-outline-dark shadow"
+                    <a href="https://github.com/desertidaho/Crypto" class="btn btn-sm btn-outline-dark shadow"
                       target="_blank">code</a>
                   </div>
                 </div>
               </div>
-            </div> -->
+            </div>
 
 
             <!--end row 3 cards-->
@@ -575,6 +573,7 @@
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
+  <script src="js/bootstrap.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
     integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
     crossorigin="anonymous"></script>
@@ -583,6 +582,7 @@
     crossorigin="anonymous"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="main.js"></script>
+  
 
   <!--Up arrow scroll bottom of page-->
   <script>
