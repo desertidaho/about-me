@@ -7,6 +7,10 @@ body {
   overflow-x: hidden !important;
 }
 
+.container-fluid {
+  overflow-x: hidden !important;
+}
+
 code {
   color: #464A52;
 }
@@ -47,9 +51,11 @@ code {
   border-radius: 2%;
   height: 800px;
   width: 100vw;
+  opacity: 0.8;
 }
 
 .slant-top {
+  overflow-x: hidden !important;
   position: absolute;
   background-color: rgb(194, 194, 192);
   z-index: -3;
@@ -61,11 +67,13 @@ code {
 }
 
 .slant-row {
+  overflow-x: hidden !important;
   background-color: rgb(194, 194, 192);
   padding-bottom: 15vh;
 }
 
 .slant-bottom {
+  overflow-x: hidden !important;
   position: absolute;
   background-color: rgb(194, 194, 192);
   z-index: -3;
@@ -157,6 +165,21 @@ code {
 
 #sql {
   height: 21vh;
+}
+
+.java {
+  height: 22vh !important;
+  width: auto;
+}
+
+.spring {
+  height: 22vh !important;
+  width: auto;
+}
+
+.postman {
+  height: 18vh !important;
+  width: auto;
 }
 
 .wave::before {
@@ -252,7 +275,7 @@ code {
 }
 
   footer {
-    margin-top: 35rem !important;
+    margin-top: 40rem !important;
   }
 
 
