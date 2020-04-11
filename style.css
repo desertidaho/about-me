@@ -372,15 +372,34 @@ code {
 
   #mongo {
     margin-top: 0.4rem !important;
+    margin-bottom: 7vh !important;
   }
 
   #git-bash {
     height: 6.7vh;
     margin-top: 1.2rem !important;
+    margin-bottom: 7vh !important;
   }
 
   #sql {
     height: 8vh;
+    margin-bottom: 7vh !important;
+  }
+  
+  .java {
+  margin-left: 2vh !important;
+  height: 8vh !important;
+  margin-top: -1vh !important;
+  }
+
+  .spring {
+  height: 8vh !important;
+  margin-left: -2vh !important;
+  }
+
+  .postman {
+  height: 8vh !important;
+  margin-left: -3vh !important;
   }
 
   .portfolio-title {
@@ -395,7 +414,7 @@ code {
   }
 
   footer {
-    margin-top: 305rem !important;
+    margin-top: 315rem !important;
   }
 
   .foot-title {
