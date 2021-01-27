@@ -182,6 +182,16 @@ code {
   width: auto;
 }
 
+#angular {
+  height: 18vh;
+  width: auto;
+}
+
+#ionic {
+  width: 20vw;
+  height: 18vh !important;
+}
+
 .wave::before {
   content: '';
   position: absolute;
@@ -385,21 +395,48 @@ code {
     height: 8vh;
     margin-bottom: 7vh !important;
   }
+
+  #skills3 {
+    margin-top: 0px !important;
+  }
   
   .java {
   margin-left: 2vh !important;
-  height: 8vh !important;
+  height: 9vh !important;
   margin-top: -1vh !important;
   }
 
   .spring {
   height: 8vh !important;
-  margin-left: -2vh !important;
+  margin-left: -4vh !important;
+  margin-top: -6vh !important;
   }
 
   .postman {
   height: 8vh !important;
-  margin-left: -3vh !important;
+  margin-left: -5vh !important;
+  margin-top: -6vh !important;
+  }
+
+  #angular,
+  #ionic {
+  height: 9vh !important;
+  width: auto !important;
+  }
+
+  #skills4 {
+    margin-top: 0px !important;
+  }
+
+  #angular {
+    margin-left: 0px !important;
+    margin-right: 30px !important;
+    margin-top: -1vh !important;
+  }
+
+  #ionic {
+    margin-top: -1vh !important;
+    margin-left: 0.2rem !important;
   }
 
   .portfolio-title {
